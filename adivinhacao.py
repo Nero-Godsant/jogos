@@ -1,6 +1,8 @@
+import random
+
 print ("Bem vindo no jogo de Adivinhação!")
 
-numero_secreto = 74
+numero_secreto = random.randrange(1,101)
 total_de_tentativas = 3
 rodada = 1
 
